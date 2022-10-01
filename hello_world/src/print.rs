@@ -9,4 +9,8 @@ pub fn run(){
     println!("{0} 获取对应顺序的参数 {1}  {0} {2}","Jake","Ether","Rust");
 
     println!("{name} 使用名称获取参数 {action}",name="heidsoft", action="Play");
+
+    println!("Binary:{:b}. Hex:{:x}. Octal: {:o}",10,10,10);
+
+    println!("10 + 10 = {}",10 + 10);
 }
