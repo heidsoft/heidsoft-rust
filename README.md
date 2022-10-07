@@ -1,7 +1,11 @@
+# rustup
+- rustup update 更新rust版本
+
 # cargo 
 
 - cargo fmt  格式代码
 - cargo fix  代码修复
+
 
 # 并发
 ```
