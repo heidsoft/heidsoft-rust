@@ -50,3 +50,8 @@ https://rocket.rs/v0.5-rc/guide/getting-started/
 ## Actix-web
 
 https://actix.rs/
+
+# rust文章
+
+- https://mp.weixin.qq.com/s/fNeasOwibFz0_Ahjb4FiGQ
+- https://mp.weixin.qq.com/s/AXXJnFdwYDiy5vfZ-fvVDQ
