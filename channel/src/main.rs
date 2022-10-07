@@ -12,5 +12,5 @@ fn main() {
 
     // 主线程接受打印
     let received = rx.recv().unwrap();
-    println!("Got: {}",received);
+    println!("Got: {}", received);
 }
