@@ -55,3 +55,9 @@ https://actix.rs/
 
 - https://mp.weixin.qq.com/s/fNeasOwibFz0_Ahjb4FiGQ
 - https://mp.weixin.qq.com/s/AXXJnFdwYDiy5vfZ-fvVDQ
+
+# git
+```
+git rm -r --cached **/target
+git commit -m "Update .gitignore to ignore target directories"
+```
