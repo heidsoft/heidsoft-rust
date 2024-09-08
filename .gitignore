@@ -1,0 +1,45 @@
+# Rust编译生成的文件
+**/target/
+
+# Cargo的锁定文件，如果项目不打算共享该文件可以忽略它
+# Cargo.lock
+
+# 包含本地构建信息的Cargo目录
+/.cargo
+
+# 包含依赖库的Cargo缓存
+/.cargo/registry/
+/.cargo/git/
+
+# VS Code的配置和工作区文件
+.vscode/
+/*.code-workspace
+
+# 临时文件和系统文件
+*.swp
+*.swo
+*.tmp
+*.bak
+*.old
+*.log
+
+# macOS生成的文件
+.DS_Store
+
+# Windows生成的文件
+Thumbs.db
+desktop.ini
+
+# Linux生成的文件
+*~
+
+# 忽略生成的二进制文件（可选）
+*.exe
+*.out
+*.app
+
+# Rust的文档输出文件夹
+/doc/
+
+# 其他
+.idea/
