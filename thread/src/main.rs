@@ -10,16 +10,20 @@ use std::time::Duration;
 /// 这些线程可能会交替执行，但我们无法对他们的执行顺序做出任何保障
 /// 执行顺序由操作系统的线程调度策略决定
 fn main() {
-
-    thread::spawn(|| {
-            for i in 1..10{
-            println!("hi number {} from the spawned thread!",i );
+    // 生成新线程并保存其句柄
+    let spawned_thread = thread::spawn(|| {
+        for i in 1..10 {
+            println!("hi number {} from the spawned thread!", i);
             thread::sleep(Duration::from_millis(1));
         }
     });
-    for i in 1..5{
-        println!("hi number {} from the main thread!",i );
+
+    // 主线程的循环
+    for i in 1..5 {
+        println!("hi number {} from the main thread!", i);
         thread::sleep(Duration::from_millis(1));
     }
 
+    // 等待生成的线程���成
+    spawned_thread.join().unwrap();
 }
